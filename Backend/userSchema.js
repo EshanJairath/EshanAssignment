@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 const connectionUri =
-  "mongodb+srv://eshan:jairath@cluster0.r4iht.mongodb.net/cluster0?retryWrites=true&w=majority";
+  "mongodb+srv://<user>:<password>@<dbname>.r4iht.mongodb.net/cluster0?retryWrites=true&w=majority";
 
 mongoose.connect(connectionUri, {
   useUnifiedTopology: true,
